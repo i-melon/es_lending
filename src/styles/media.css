@@ -1,0 +1,181 @@
+@media (max-width:1200px){
+    
+}
+
+@media (max-width:1000px){
+    #buttonRow{
+        display: none;
+    }
+    #InfoRow{
+        flex-direction: column;
+        gap: 30px;
+    }
+    #bigTitle{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:768px){
+    #connectRow{
+        display: none;
+    }
+    .firstBlock{
+        padding: 3px;
+    }
+    #bigTitle{
+        font-size: 39px;
+        width: 100%;
+        line-height: 40px;
+    }
+    #InfoRowText{
+        width: 80%;
+    }
+    #SecondBlock{
+        padding: 30px 12px;
+        }
+        .blockSecondTitle{
+            font-size: 50px;
+
+line-height: 56px; /* 111.765% */
+                }
+                #secondArrowButton{
+                    margin-bottom: 40px;
+                }
+                .ScrolableRow{
+                    display: none;
+                }
+                .ThirdBlock{
+                    align-self: stretch;
+                    padding: 30px 12px;
+                    flex-direction: column;
+                }
+                .leftBlockThree{
+                    width: 80%;
+                }
+                .rightBlockThree{
+                    min-width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                }
+                .blockThreeTitle{
+                    font-size: 50px;
+                    line-height: 56px; /* 111.765% */
+                }
+                #ThreeArrowButton{
+                    display: none;
+                }
+                .iphoneImage{
+                    width: 320px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+                .FourthBlock{
+                    padding: 30px 20px;
+                }
+                .blockFourTitle{
+                    font-size: 50px;
+                    line-height: 56px;
+                    width: 80%;
+                }
+                .advRowFour{
+                    flex-direction: column;
+                    margin-top: 30px;
+                }
+                .advBox{
+                    width: 80%;
+                }
+                .videoButton{
+                    display: none;
+                }
+                .ButtonFourBlock{
+                    align-self: stretch;
+                }
+                .FourButtonRow{
+                    margin-top: 30px;
+                    margin-bottom: 40px;
+                }
+                .SixthBlock{
+                    padding: 30px 20px;
+                }
+                .sixthBlockTitle{
+                    font-size: 50px;
+                    line-height: 56px;
+                }
+                .sixthContentRow{
+                    flex-direction: column;
+                    margin-bottom: 40px;
+                }
+                .seventhBlock{
+                    padding: 30px 20px;
+                }
+                .seventhBlockTitle{
+                    font-size: 50px;
+                    line-height: 56px;
+                }
+                .seventhContentRow{
+                    margin-bottom: 40px;
+                }
+                .eigthBlcok{
+                    padding: 30px 20px;
+                }
+                .eigthTitle{
+                    font-size: 50px;
+                    line-height: 56px;
+                }
+                .eigthText{
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+                .eigthTextHelper{
+                    font-size: 12px;
+                }
+                .eigthContentItem{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                }
+                .lastBlock{
+                    padding: 30px 20px;
+                    flex-direction: column;
+                }
+                .lastBlockTitle{
+                    font-size: 40px;
+                    line-height: 46px;
+                }
+                .lastButtonRow{
+                    flex-direction: column;
+                    align-self: stretch;
+                    justify-content: flex-start;
+                }
+}
+
+@media (max-width:480px){
+    #bigTitle{
+        font-size: 39px;
+        width: 100%;
+        line-height: 40px;
+    }
+    #budTitle{
+        font-size: 29px;
+    }
+    .firstBlock{
+        padding: 3px;
+    }
+    #InfoRowText{
+        width: 80%;
+    }
+    .arrowButton{
+        font-size: 16px;
+    }
+    #SecondBlock{
+    padding: 30px 12px;
+    }
+    .blockSecondTitle{
+font-size: 50px;
+
+line-height: 56px; /* 111.765% */
+    }
+    
+}

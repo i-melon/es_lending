@@ -1,0 +1,636 @@
+#header{
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#logoTitle{
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 150% */
+    letter-spacing: -1.28px;
+}
+#logoText{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 16px; /* 106.667% */
+}
+#buttonRow{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerButton{
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+}
+.headerButton:hover{
+    color: rgb(119, 119, 119);
+}
+#connectRow{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center ;
+}
+.MainButton{
+    color: #FF5F33;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #000;
+    border: none;
+    margin-left: 22px;
+}
+.MainButton:hover{
+    background-color: rgb(76, 76, 76);
+}
+#InfoRow{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 96px;
+}
+#budTitle{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 100% */
+    letter-spacing: -0.36px;
+}
+#budText{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px; /* 166.667% */
+}
+#InfoRowText{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 30px; /* 166.667% */
+    width: 40%;
+}
+.arrowButton{
+    display: flex;
+    gap: 10px;
+    height: 0%;
+    padding: 14px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 48px;
+    border: 1px solid #000;
+    background: #000;
+    color: #FF5F33;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 180% */
+    border: none;
+}
+.arrowButton:hover{
+    background-color: rgb(76, 76, 76);
+}
+#IconRow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+    flex-wrap: wrap;
+    margin-bottom: 112px;
+}
+#bigTitle{
+    color: #000;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 84px; /* 123.529% */
+    width: 70%;
+    margin-top: 96px;
+}
+#netIcon{
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstBlock{
+    min-height: fit-content ;
+    background: #FF532E;
+    padding:32px 112px ;
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+#SecondBlock{
+    min-height: fit-content;
+    background: rgba(250, 250, 250, 1);
+    padding:96px 112px ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 48px 48px 0px 0px;
+    margin-top: -48px;
+}
+.blockSecondText{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 160% */
+}
+.blockSecondTitle{
+    color: #000;
+font-size: 68px;
+font-style: normal;
+font-weight: 600;
+line-height: 76px; /* 111.765% */
+letter-spacing: -0.68px;
+margin-top: 16px;
+width: 80%;
+}
+.ScrolableRow{
+    margin-top: 68px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+}
+.imageBox{
+    width: 336px;
+    height: 496px;
+}
+.imgTitle{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    margin-top: 24px;
+    width: 336px;
+}
+#secondArrowButton{
+    color: white;
+    margin-top: 68px;
+}
+
+
+
+
+.ThirdBlock{
+    min-height: fit-content;
+    background: rgba(57, 204, 241, 1);
+    padding:96px 112px ;
+    display: flex;
+    flex-direction: row;
+    border-radius: 48px 48px 0px 0px;
+    margin-top: -48px;
+}
+.leftBlockThree{
+    width: 50%;
+}
+.blockThreeText{
+    color: #000;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+.blockThreeTitle{
+    width: 70%;
+    color: #000;
+font-size: 68px;
+font-style: normal;
+font-weight: 600;
+line-height: 76px; /* 111.765% */
+letter-spacing: -0.68px;
+margin-top: 16px;
+margin-bottom: 56px;
+}
+#ThreeArrowButton{
+    margin-top: 56px;
+    color: rgba(57, 204, 241, 1);
+}
+    .rightBlockThree{
+        width: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+
+    .FourthBlock{
+        min-height: fit-content;
+        background-image: url('@/assets/imgs/bg4.png');
+        background-color: #cccccc;
+        padding:96px 112px ;
+        display: flex;
+        flex-direction: column;
+        border-radius: 48px 48px 0px 0px;
+        margin-top: -48px;
+    }
+    .blockFourText{
+        color: #FAFAFA;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 160% */
+    }
+    .blockFourTitle{
+        color: #FAFAFA;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 111.765% */
+    letter-spacing: -0.68px;
+    width: 50%;
+    margin-top: 20px;
+    }
+    .advRowFour{
+    margin-top: 182px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    }
+    .advBox{
+        display: flex;
+        flex-direction: row;
+        width: 25%;
+        gap: 24px;
+        align-items: center;
+    }
+    .fourBlockNumber{
+        color: #FAFAFA;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 111.765% */
+    letter-spacing: -0.68px;
+    }
+    .blockFourAddText{
+        color: #F1F1F1;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 137.5% */
+    }
+    .FourButtonRow{
+        display: flex;
+        flex-direction: row;
+        margin-top: 74px;
+    }
+    .videoButton{
+        display: flex;
+        height: 64px;
+        padding: 12px 32px;
+        align-items: center;
+        gap: 16px;
+        border-radius: 48px;
+        border: 1px solid rgba(255, 255, 255, 0.32);
+        background: none;
+    }
+    .videoButton:hover{
+        background-color: rgb(76, 76, 76);
+    }
+    .videoButtonColumn{
+        color: #FAFAFA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .ButtonFourBlock{
+        display: flex;
+    height: 64px;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 48px;
+    border: 1px solid #FF532E;
+    background: #FF532E;color: #FAFAFA;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    margin-left: 16px;
+    }
+    .ButtonFourBlock:hover{
+        background-color: #f46d4f;
+    }
+
+
+
+
+    .SixthBlock{
+        min-height: fit-content;
+        background: rgba(57, 204, 241, 1);
+        padding:96px 112px ;
+        display: flex;
+        flex-direction: column;
+        border-radius: 48px 48px 0px 0px;
+        margin-top: -48px;
+    }
+    .sixthBlockText{
+        color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+    }
+    .sixthBlockTitle{
+        width: 70%;
+        color: #000;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 111.765% */
+    letter-spacing: -0.68px;
+    margin-top: 20px;
+    margin-bottom: 55px;
+    } 
+    .sixthContentRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sixthContentBox{
+        margin-top: 56px;
+        width: fit-content;
+        display: flex;
+    padding: 64px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #000;
+    }
+    .sixthBoxTitle{
+        color: #39CCF1;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 163.636% */
+    }
+    .sixthBoxNumbers{
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        border-top: solid #39CCF1;
+        border-bottom: solid #39CCF1;
+        padding: 16px 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .sixthLabel{
+        color: #39CCF1;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    }
+    .sixthDigit{
+        color: #39CCF1;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+    }
+    .sixthBoxData{
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+
+
+
+    .seventhBlock{
+        min-height: 100vh;
+        background: #000;
+        padding:96px 112px ;
+        display: flex;
+        flex-direction: column;
+        border-radius: 48px 48px 0px 0px;
+        margin-top: -48px;
+    }
+    .seventhBlockText{
+        color: #FAFAFA;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+    }
+    .seventhBlockTitle{
+        color: #FAFAFA;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 111.765% */
+    letter-spacing: -0.68px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    width: 70%;
+    }
+    .seventhContentRow{
+        margin-top: 75px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .seventhContnentBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seventhName{
+        color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    margin-top: 45px;
+    margin-bottom: 5px;
+    }
+    .seventhDol{
+        color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    }
+
+
+
+
+    .eigthBlcok{
+        min-height: fit-content;
+        background: rgba(57, 204, 241, 1);
+        padding:96px 112px ;
+        display: flex;
+        flex-direction: column;
+        border-radius: 48px 48px 0px 0px;
+        margin-top: -48px;
+    }
+    .eigthText{
+        color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+    }   
+    .eigthTitle{
+        color: #000;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; /* 111.765% */
+    letter-spacing: -0.68px;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    }
+    .eigthContentItem{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0px;
+        border-top: 1px solid #000;
+    }
+    .roundedButon{
+        display: flex;
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 48px;
+    background: #000;
+    border: none;
+    }
+    .roundedButon:hover{
+        background-color: rgb(78, 78, 78);
+    }
+
+
+
+
+
+#ThreeArrowButton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: fit-content;
+}
+    .lastBlock{
+        min-height: fit-content;
+    background: rgba(255, 83, 46, 1);
+    padding:96px 112px ;
+    display: flex;
+    flex-direction: row;
+    border-radius: 48px 48px 0px 0px;
+    margin-top: -48px;
+    justify-content: space-between;
+    }
+    .lastBlockText{
+        color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+    }
+    .lastBlockTitle{
+        margin-top: 12px;
+        margin-bottom: 16px;
+        color: #000;
+font-size: 56px;
+font-style: normal;
+font-weight: 500;
+line-height: 76px; /* 135.714% */
+letter-spacing: -0.56px;
+    }
+    .footerText{
+        color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 200% */
+    }
+    .lastButton{
+        display: inline-flex;
+padding: var(--spacing-m, 12px) 20px;
+align-items: center;
+gap: var(--spacing-s, 8px);
+color: #FF5F33;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+border-radius: 32px;
+background: #000;
+border: none;
+margin-bottom: 45px;
+    }
+    .lastButton:hover{
+        background-color: rgb(74, 74, 74);
+    }
+    .lastButtonRow{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
