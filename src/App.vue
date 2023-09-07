@@ -476,6 +476,10 @@ export default {
 body{font-family: customFont;}
 *{
   margin: 0;
+  
+}
+body{
+  background-color: #FF532E;
 }
 
 </style>
