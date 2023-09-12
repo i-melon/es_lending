@@ -31,6 +31,19 @@
                   WhatsApp
               </button></a>
           </div>
+          <div class="dropdown">
+            <button class="dropbtn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M3 12H21" stroke="#1C2729" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 7H21" stroke="#1C2729" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 17H21" stroke="#1C2729" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg></button>
+            <div class="dropdown-content">
+              <a href="#market"><button class="headerButton">Реклама</button></a>
+              <a href="#analitics"><button class="headerButton">Аналитика</button></a>
+              <a href="#video"><button class="headerButton">Видео-контент</button></a>
+              <a href="#sites"><button class="headerButton">Сайты и приложения</button></a>
+            </div>
+          </div>
       </div>
       <div id="bigTitle">
           Реклама в 
@@ -49,7 +62,7 @@
               <p id="budText">стартовый бюджет</p>
           </div>
           <div id="InfoRowText">Выстраиваем стратегию. Пишем тексты. Дизайним, снимаем и анимируем контент. Работаем с комментариями. Запускаем таргет.</div>
-          <button class="arrowButton" @click="showDialog">Привести клиентов
+          <button class="SuperButton" @click="showDialog">Привести клиентов
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2278 4.2278C11.6543 3.80135 12.3457 3.80135 12.7721 4.2278L19.7721 11.2278C20.1986 11.6543 20.1986 12.3457 19.7721 12.7721L12.7721 19.7721C12.3457 20.1986 11.6543 20.1986 11.2278 19.7721C10.8013 19.3457 10.8013 18.6543 11.2278 18.2278L16.3636 13.092H4.99996C4.39686 13.092 3.90796 12.6031 3.90796 12C3.90796 11.3969 4.39686 10.908 4.99996 10.908H16.3636L11.2278 5.77212C10.8013 5.34567 10.8013 4.65425 11.2278 4.2278Z" fill="#FF5F33"/>
               </svg>
@@ -203,7 +216,8 @@
             <p class="imgTitle">Запуск рекламы поиска художника по костюмам для кинофильма </p>
         </div>
     </dic>
-    <button class="arrowButton" id="secondArrowButton" @click="showDialog">Заказать оффер
+    
+    <button class="SuperButton" id="secondSuperButtonButton" @click="showDialog">Заказать оффер
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2278 4.22783C11.6543 3.80138 12.3457 3.80138 12.7722 4.22783L19.7722 11.2278C20.1986 11.6543 20.1986 12.3457 19.7722 12.7722L12.7722 19.7722C12.3457 20.1986 11.6543 20.1986 11.2278 19.7722C10.8014 19.3457 10.8014 18.6543 11.2278 18.2278L16.3637 13.092H4.99999C4.39689 13.092 3.90799 12.6031 3.90799 12C3.90799 11.3969 4.39689 10.908 4.99999 10.908H16.3637L11.2278 5.77215C10.8014 5.3457 10.8014 4.65428 11.2278 4.22783Z" fill="#FAFAFA"/>
         </svg>
@@ -215,7 +229,7 @@
         <div class="blockThreeText">Креативы</div>
         <div class="blockThreeTitle">Создаем очень много интересных креативов</div>
         <div class="blockThreeText">Чтобы цеплять внимание пользователей и ваша реклама просто не пролиствовалась,а бюджет не сливался.  </div>
-        <button class="arrowButton" id="ThreeArrowButton" @click="showDialog">Заказать оффер
+        <button class="SuperButton" id="ThreeSuperButtonButton" @click="showDialog">Заказать оффер
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2278 4.22783C11.6543 3.80138 12.3457 3.80138 12.7722 4.22783L19.7722 11.2278C20.1986 11.6543 20.1986 12.3457 19.7722 12.7722L12.7722 19.7722C12.3457 20.1986 11.6543 20.1986 11.2278 19.7722C10.8014 19.3457 10.8014 18.6543 11.2278 18.2278L16.3637 13.092H4.99999C4.39689 13.092 3.90799 12.6031 3.90799 12C3.90799 11.3969 4.39689 10.908 4.99999 10.908H16.3637L11.2278 5.77215C10.8014 5.3457 10.8014 4.65428 11.2278 4.22783Z" fill="#10B3DD"/>
             </svg>
@@ -365,13 +379,23 @@
   <div class="seventhBlockTitle">Кто будет работать над вашим проектом</div>
   <div class="seventhBlockText">У нас не один полуживой сммщик на все проекты, а целая команда<br/> бодрых и умных специалистов со своими зонами ответственности.</div>
   <div class="seventhContentRow">
-      <div class="seventhContnentBox">
-          <img src="@/assets/imgs/worker.png" alt="worker">
-          <div class="seventhName">Аскар Байтасов</div>
-          <div class="seventhDol">Видеограф, 6 лет опыта</div>
-      </div>
+    
+      <!-- <div class="seventhContnentBox">
+        <img src="@/assets/imgs/worker2.png" alt="worker">
+        <div class="seventhName">Константин Ким</div>
+        <div class="seventhDol">Мобилограф, 6 лет опыта</div>
+    </div>
+    <div class="seventhContnentBox">
+      <img src="@/assets/imgs/worker3.png" alt="worker">
+      <div class="seventhName">Айгерим Рахимбаева</div>
+      <div class="seventhDol">Дизайнер, 6 лет опыта</div>
+    </div> -->
+    <!-- buttons -->
+  
+    
       
   </div>
+  <MySlider :sliderData="this.sliderOne"/>
 </div>
 <!-- end of seventhBlock -->
 <div class="eigthBlcok">
@@ -447,15 +471,32 @@
 
 <script>
 import MyDialog from './components/UI/MyDialog.vue';
-
+import MySlider from './components/UI/MySlider.vue';
 export default {
   name: 'App',
   components: {
-    MyDialog
+    MyDialog,
+    MySlider
   },
   data(){
     return{
-      dialogVisibility: false
+      dialogVisibility: false,
+      sliderOne: [
+        {id:1, img:'worker.png'},
+        {id:2, img:'worker2.png'},
+        {id:3, img:'worker3.png'},
+        {id:4, img:'worker.png'},
+        {id:5, img:'worker2.png'},
+        {id:6, img:'worker.png'},
+        {id:7, img:'worker2.png'},
+      ],
+      sliderTwo: [
+        {id: 1, img:'image1.png'},
+        {id: 2, img:'image2.png'},
+        {id: 3, img:'image3.png'},
+        {id: 4, img:'image4.png'},
+        {id: 5, img:'image5.png'}
+      ]
     }
   },
   methods: {
@@ -472,6 +513,18 @@ export default {
 @font-face {
   font-family: customFont;
   src: url('@/assets/fonts/TT\ Hoves\ Pro\ Trial\ Regular.woff');
+}
+@font-face {
+  font-family: customFontDemiBold;
+  src: url('@/assets/fonts/TT Norms Pro Trial DemiBold.ttf');
+}
+@font-face {
+  font-family: customFontMedium;
+  src: url('@/assets/fonts/TT Norms Pro Trial Medium.ttf');
+}
+@font-face {
+  font-family: customFontNormal;
+  src: url('@/assets/fonts/TT Norms Pro Trial Normal.ttf');
 }
 body{font-family: customFont;}
 *{
